@@ -288,3 +288,21 @@ z-index: 1000;
 pointer-events: none;
 /* display: none;  <-- Remove or comment this out if discord.js doesn't toggle it */
 }
+.links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+}
+
+.link-icon {
+  color: white;
+  font-size: 24px; /* Size of the icons */
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.link-icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+  color: #cccccc; /* Subtle color change */
+}
